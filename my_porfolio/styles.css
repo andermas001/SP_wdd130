@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+#opentitle {
+    font-size: 1.5em;
+    color: #333;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ul li{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  float: left;
+}
+
+ul li:hover {
+  background-color: #111111;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+main{
+    display: grid;
+    gap: 20px;
+}
+
+section {
+    padding: 20px;
+    background-color: #d7d0d0;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #403e3e;
+    line-height: 1.6;
+    font-weight: 350;
+}
+footer {
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+#footer-content {
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer p {
+    text-align: center;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.ice_project_odd {
+   background-color: #d7d0d0;
+}
+
+.ice_project_even {
+     background-color: #c4b9b9;
+}
